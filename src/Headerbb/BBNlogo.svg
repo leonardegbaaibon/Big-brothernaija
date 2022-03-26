@@ -1,0 +1,7 @@
+        
+ <svg  height="100" width="500" >
+  <ellipse cx="160" cy="55" rx="75" ry="40" style="fill:yellow" />
+  <ellipse cx="120" cy="55" rx="65" ry="40" style="fill:purple" />
+  <ellipse cx="152" cy="55" rx="36" ry="32.5" style="fill:red" />
+  <ellipse cx="152" cy="55" rx="5" ry="5" style="fill:black" />
+  </svg>

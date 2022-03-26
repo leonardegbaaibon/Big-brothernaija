@@ -1,0 +1,17 @@
+.evictedmate-div{
+    background-color: gray;
+    flex: 25%;
+}
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 1200px) {
+    .evictedmate-div{
+      visibility: collapse;
+      flex: 5%;
+    }
+  }
+  @media  (max-width: 10051px){
+      .evictedmate-div{
+          flex: 30%;
+      }
+      
+  }

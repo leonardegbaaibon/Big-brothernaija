@@ -1,0 +1,18 @@
+.main-head{
+    background-color: gray;
+    height: 100px;
+}
+.bigLogo-name{
+    margin: 0;
+    color: purple ;
+    text-align: center;  
+}
+.logo-name{
+    color: yellow;
+}
+.SVG{
+    margin: auto;
+  width: 40%;
+  border: 3px solid green;
+  padding: 10px;
+}

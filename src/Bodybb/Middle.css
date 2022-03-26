@@ -1,0 +1,78 @@
+.housemate-div{
+    background-color: #f1f1f1;
+    flex: 50%;
+}
+.arrange-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 6px;
+    margin-left: 5px;
+    padding: 0%;
+    
+}
+.part-img{
+    display: grid;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.part-img:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+}
+
+.picture-div1,.picture-div2,.picture-div3{
+    padding: 10px;
+    top: 50%;
+    bottom: 50%;
+    cursor: pointer;
+}
+.picture-div1:hover,.picture-div2:hover,.picture-div3:hover{
+    box-shadow: 4px 4px 6px rgb(116, 109, 109);
+}
+@media (max-width: 1051px) {
+    .arrange-div{
+      flex-direction:column;
+    }
+  }
+  .odds-name{
+      display: flex;
+      justify-content: space-around;
+      
+  }
+  .odds-stay,.odds-leave{
+      margin: 0px;
+      padding-left: 48.50px;
+      padding-right:48.50px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: purple;
+      cursor:text;
+  }
+  .figure-stay:hover,.figure-leave:hover{
+    background-color: rgb(241, 241, 7);
+}
+.odds-figure{
+    display: flex;
+    justify-content: space-around;
+}
+.figure-stay,.figure-leave{
+    margin: 0px;
+    padding-left: 37.55px;
+    padding-right: 37.55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(192, 192, 151);
+}
+.odd-div{
+    background-color: rgb(97, 57, 19);
+    width: 100px;
+    margin: auto;
+    position: relative;
+}
+.count{
+    text-align: center;
+    
+}
